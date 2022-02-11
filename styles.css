@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    width: 100%;
+    background:#2c3138 ;
+
+}
+.container{
+    width: 80%;
+    margin: auto;   
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;   
+}
+.logo img{
+    width: 120px;
+   padding: 16px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.navbar ul>li{
+    margin: 10px;   
+    list-style-type: none;
+    position: relative;    
+}
+.navbar ul>li>a{
+     text-decoration: none;
+     color: grey;     
+     font-family: 'Oswald', sans-serif;
+     cursor: pointer;
+}
+#header ul>li>a:hover::before {
+    content: '';
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgb(68, 114, 169);
+    position: absolute;
+    right: 35%;
+    top: -27%;    
+}
+/*a::before{content:""; background-color:red}*/
+
+#header ul>li>a:hover {   
+    color:rgb(68, 114, 169);
+}
+
+#bg-logo{
+    background: url(./img/bg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    
+}
+.logo-smp{   
+    color: rgb(97, 120, 149);   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0;
+}
+.logo-smp img{
+    height: 250px;
+    
+}
+.logo-smp h2 {
+    margin-top: 20px;
+}
+#one{   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 100px 0;   
+    background:  #f8fcff;
+}
+.who h2{
+    font-size: 48px;
+    color: rgb(97, 120, 149);
+   
+}
+.text1 p{
+    font-family: 'Oswald', sans-serif;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.img1 {
+    width: 80%;
+}
+.img1 img{
+    width: 100%;
+}
+.text11 {
+    margin: 30px 0;
+    font-family: 'Oswald', sans-serif;
+}
+#two{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    margin: auto;
+    padding: 50px 0;
+    background: #eef2f7;
+    position: relative;
+}
+
+.img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    
+}
+.img21 {
+    width: 10%;
+}
+.img22 {
+    width: 20%;
+}
+#fre{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    margin: auto;
+    padding: 100px 0;
+    background:  #f8fcff;
+}
+.img23{
+   width: 30%;
+    margin: 30px 0;
+}
+.fre1 {
+    width: 26%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+    text-align: center;
+}
+.linebefoo1 {
+    position: relative;
+}
+.linebefoo::before{
+   content: '';
+   background: url(./img/line.png)no-repeat;
+   width: 200px;
+   height: 2px;
+   position: absolute;
+   top: 34%;
+   left: -50%;
+}
+.linebefoo::after{
+    content: '';
+    background: url(./img/line.png)no-repeat;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    top: 34%;
+    left: 78%;
+ }
+ .who h2::before {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #009acf;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 60px;
+}
+.star {
+    max-width: 597px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    background: transparent;
+    opacity: 0.7;
+}
+.star img {
+    width: 100%;
+}
+#foure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: #eef2f7;
+    position: relative;
+}
+.foure1 {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text12 {
+    width: 40%;
+}
+.img3{
+    margin-left: -150px;
+    z-index: 1;
+}
+.img3 img{
+    width: 100%;
+}
+#foure p {
+    text-align: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+#foure a {
+    color: #bf946e;;
+}
+.foure12 {
+  flex-direction: row-reverse;
+}
+.foure12 img{
+    margin: 0;
+}
+.foure1 button {
+    margin: 50px;
+    padding: 15px 80px;
+    color: white;
+    background: #5699cc;
+    border-radius: 24px;
+    border: none;
+    border-color: white;
+}
+.foure1 button:hover {   
+    color:#5699cc ;
+    background: white; 
+    border: none;
+    box-shadow:0px 5px 25px -5px #17344a;
+    border-radius: 24px; 
+    border-color: white;
+}
+
+#five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+     background:  #f8fcff;
+    position: relative;
+}
+#six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: #587993;
+}
+#six h2 {
+    color: white;
+}
+.img4{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.img41  {
+    width: 10%;
+    color: white;
+     text-align: center;
+     text-align: 14px;
+     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column; 
+}
+.img41 img {
+    width: 100%;
+}  
+
+#seven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    background: #f8fcff;
+}
+#seven p {
+    color: black;
+}
+.img5{
+    display: flex;
+    width: 57%;
+    flex-direction: row;    
+    justify-content: space-between;
+    margin-top: 30px;
+}
+footer {
+    background:#2c3138 ;
+    
+}
+.text-footer {
+    color: grey;
+    width: 30%;
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+footer li:last-child {
+    border: 2px solid #009acf;
+    border-radius: 25px;
+}
+.footer-a {  
+ margin: 27px;
+   color:#009acf!important ;
+}
+.footer-end{
+    display: flex;
+    justify-content: center;
+    background:#2c3138 ;
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-end p {
+    margin: 30px 5px;
+}
+.foot{
+    color:#009acf ;
+}
+#go-top {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display:block;
+
+}
+
+
+@media(max-width: 1023px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #go-top {
+        display:none;
+    }
+    .navbar ul>li>a {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+   #one,#two,#fre,#foure,#five,#six,#seven {
+        font-family: 'Grenze Gotisch', cursive;
+    }
+    #foure p{
+        font-family: 'Grenze Gotisch', cursive; 
+    }
+    .text1 p{
+        font-family: 'Grenze Gotisch', cursive;
+    }
+    .text11 {
+        font-family: 'Grenze Gotisch', cursive;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+    }
+    .foure1 button {
+        margin: 20px 0;
+    }
+    .foure1 {
+        flex-direction: column;
+    }
+    .linebefoo::before {
+        display: none;
+    }
+    .linebefoo::after {
+        display: none;
+    }
+    .img2{
+        flex-direction: column;
+    }
+    .img21 {
+        width: 40%;
+    }
+    .fre1 {
+        width: 90%;
+
+    }
+    .text12 {
+        width: 90%;
+        margin: auto;
+    }
+    .img3{
+        margin: 0;
+    }
+    .img4{
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .img41{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .img5{
+        flex-direction: column;
+    }
+    .img41 img {
+        width: 50%;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .text-footer{
+        width: 90%;
+        
+    }
+    .navbar ul {
+        align-items: center;
+    }
+    .footer-end {
+        flex-direction: column;
+    }
+    .footer-end p {
+        margin: 10px 5px 0 5px;
+    }
+    .text11{
+        margin: 30px 10px;
+    }
+    .trans {
+        transform: rotate(90deg);
+       width: 15%;
+    }
+    .img21 {
+        margin: 10px;
+    }
+    .img22 {
+        width: 46%;
+    }
+
+
+
+}
+
